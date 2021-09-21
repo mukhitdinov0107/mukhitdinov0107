@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+ <div class="container">
+        <div class="left">
+            <div class="menu">
+                <img src="images/Group.png" alt="" class="iffee">
+
+                <nav>
+                    <ol>
+                        <li>Menu</li>
+                        <a href="#"> <li><img src="images/Union.svg" alt="">Home</li></a>
+                        <a href="#"> <li><img src="images/category.svg" alt=""> Garage</li></a>
+                        <a href="#"> <li><img src="images/payment.svg" alt=""> Service Menu</li></a>
+                        <a href="#"> <li><img src="images/group.svg" alt="">  Racers</li> </a>
+                        <a href="#"> <li><img src="images/calculator.svg" alt=""> Calculator</li> </a>
+                        <a href="#"> <li><img src="images/settings.svg" alt=""> Settings</li> </a>
+
+                    </ol>
+                </nav>
+                <div class="scheduled">
+
+                    <p class="racers" >Scheduled Races</p>
+                    <div class="moto_gpj">
+                        <input id="moto_gp" type="radio" name="radio_btn" class="moto_gp">
+                        <label for="moto_gp">MotoGP 2022</label>
+                    </div>
+                    <div class="dynamic_racing">
+                        <input type="radio" id="dynamics" name="radio_btn" class="dynamics">
+                        <label for="dynamics">Dynamic 22</label>
+                    </div>
+                    <div class="olympic_race">
+
+                        <input type="radio" id="olympic" name="radio_btn" class="olympics">
+                        <label for="olympic" id="olymp">Olympics</label>
+                    </div>
+
+                </div>
+                <div class="selection">
+                    <div class="selectlog">
+                        <img src="images/Ellipse%202.png" alt="">
+                        Killua
+                        <img src="images/icon.png" class="img" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    <div class="right">
+        <div class="searching">
+            <img src="images/search.svg" alt="" class="union">
+            <input type="text" class="search" placeholder="Search for a race, car or racer">
+
+            <select class="drop_menu" id="list"  >
+                <option value="placeholder">Choose a car</option>
+                <option>Renault</option>
+                <option>Infiniti</option>
+                <option>Lamborghini</option>
+
+            </select>
+            <div class="alert">d
+
+                <img src="images/alert.png" alt="" class="alert_img">
+
+            </div>
+
+
+
+            <div class="per_div">
+                <img src="images/person.png" class="person">
+            </div>
+
+            <img src="images/theper.png" alt="" class="theper" >
+        </div>
+        <div class="renault_info">
+            <div class="configs">
+                <div class="start"><img src="images/start.svg" alt="" width="30px" height="35px" ><a href="#">Start</a></div>
+                <div class="drive"><img src="images/drive.png" alt="" ><a href="#"> Drive </a></div>
+                <div class="maintinance"><img src="images/maintinance.png" alt=""> <a href="#">Maintinance</a></div>
+                <div class="battery"><img src="images/battery.svg" width="30px" height="35px" alt=""><a href="#">Battery</a></div>
+                <div class="tires" ><img src="images/tires.svg" alt=""><a href="#">Tires</a></div>
+                <div class="lock"><img src="images/lock.svg" alt=""><a href="#">Lock</a></div>
+            </div>
+        </div>
+
+<div class="renault">
+    <div class="renault_car">
+        <div class="renault_car_title">
+            <h1>Infiniti Renault</h1>
+            <div class="renault_btns">
+                <button id="left_btn" class="left_btn" onclick="slidePrev()" > <p><</p> </button>
+                <button id="right_btn" class="right_btn" onclick="slideNext()" ><p> > </p> </button>
+            </div>
+
+        </div>
+            <div class="first_car">        <img src=" images/Car.png" alt="" class="car_img" ></div>
+<div class="second_car">
+    <img src="images/second.png" alt="">
+</div>
+        
+    </div>
+            <div class="renault_trophies">
+
+        <div class="cat_cont">
+            <img src="images/cat.png" alt="" width="60px" height="60px">
+
+        <div class="cat_cont_title">
+            <p>72</p>
+            <h5>Championships</h5>
+        </div>
+        </div>
+                <div class="moon_cont">
+                    <img src="images/moon.jpg" alt="" width="60px" height="65px">
+                    <div class="moon_cont_title">
+                        <p>32</p>
+                        <h5>Skins</h5>
+                    </div>
+                </div>
+                <div class="trophie_cont">
+                    <img src="images/trophie.jpg" alt="" width="60px" height="60px">
+                    <div class="trophie_cont_title">
+                        <p>64</p>
+                        <h5>Trophies Won</h5>
+                    </div>
+                </div>
+            </div>
+</div>
+<div class="statistics">
+
+<!--    races info races info races info races info -->
+
+    <div class="races">
+    <div class="races_title">
+        <h1>Races</h1>
+        <select name="" id="select">
+            <option value="" >This year</option>
+            <option value="" >Last Year</option>
+            <option value="" >2 Years ago</option>
+        </select>
+    </div>
+            <div class="races_statistics">
+                <div class="races_statistics_title">
+
+                    <p class="fourty" id="fourty">48%</p>
+                    <div class="races_statistics_title_image">
+                    <img src="images/up.svg" alt="">
+                        <p>+12%</p>
+                </div>
+                </div>
+
+                <div class="race_months">
+                    <div class="jancont">
+                        <div class="jan"  onmouseover="hoverZero()"></div>
+                        <p class="month_p">Jan</p>
+                    </div>
+                    <div class="fabcont">
+                        <div class="fab"  onmouseover="hoverFour()"></div>
+                        <p class="month_p" >Fab</p>
+                    </div>
+                    <div class="marcont">
+                        <div class="mar"  onmouseover="hoverSeven()"></div>
+                        <p class="month_p">Mar</p>
+                    </div>
+                    <div class="aprcont">
+                        <div class="apr" onmouseover="hoverTwo()" ></div>
+                        <p class="month_p" >Apr</p>
+                    </div>
+                 <div class="maycont">
+                     <div class="may"  onmouseover="hoverFive()"></div>
+                     <p class="month_p" >May</p>
+                 </div>
+                <div class="juncont">
+                    <div class="jun"  onmouseover="hoverOne()"></div>
+                    <p class="month_p" >Jun</p>
+                </div>
+                <div class="julcont">
+                    <div class="jul"  onmouseover="hoverThree()"></div>
+                    <p class="month_p" >Jul</p>
+                </div>
+                    <div class="augcont" onmouseover="hoverSix()">
+                        <div class="aug"  onmouseover="hover()"></div>
+                        <p class="month_p" >Aug</p>
+                    </div>
+                    <div class="sepcont">
+                        <div class="sep"  onmouseover="hoverFive()"></div>
+                        <p class="month_p"   >Sep</p>
+                    </div>
+
+                </div>
+
+
+        </div>
+    </div>
+    <!--    races info races info races info races info -->
+
+<!--    engine info engine info engine info engine info engine info engine info engine info engine info-->
+
+<div class="engine">
+
+
+    <div class="engine_title">
+        <h1>Races</h1>
+        <select name="">
+            <option value="" >This year</option>
+            <option value="" >Last Year</option>
+            <option value="" >2 Years ago</option>
+        </select>
+
+    </div>
+    <div class="engine_statistics">
+        <div class="engine_statistics_title">
+
+            <p class="eighty" >84%</p>
+            <div class="engine_statistics_title_image">
+                <img src="images/up.svg" alt="">
+                <p>-8%</p>
+            </div>
+        </div>
+        
+        <div class="engine_months">
+            <img src="images/static.png" alt="" width="313px" height="107px">
+<!--                <div class="jan_t">-->
+<!--                    <p class="month_p">Jan</p>-->
+<!--                </div>-->
+
+
+<!--                <div class="fab_t">-->
+<!--                    <p class="month_p" >Fab</p>-->
+<!--                </div>-->
+
+
+<!--                <div class="mar_t">-->
+<!--                    <p class="month_p">Mar</p>-->
+<!--                </div>-->
+
+
+
+<!--                <div class="apr_t">-->
+<!--                    <p class="month_p" >Apr</p>-->
+<!--                </div>-->
+
+
+
+<!--                <div class="may_t"><p class="month_p" >May</p></div>-->
+
+
+<!--                <div class="jun_t">-->
+<!--                    <p class="month_p" >Jun</p>-->
+<!--                </div>-->
+
+
+<!--                <div class="jul_t">-->
+<!--                    <p class="month_p" >Jul</p>-->
+<!--                </div>-->
+
+
+
+<!--                <div class="aug_t">-->
+<!--                    <p class="month_p" >Aug</p>-->
+<!--                </div>-->
+
+
+
+<!--                <div class="sep_t">-->
+<!--                    <p class="month_p">Sep</p>-->
+<!--                </div>-->
+
+        </div>
+
+</div>
+
+</div>
+
+        <!--    engine info engine info engine info engine info engine info engine info engine info engine info-->
+
+    </div>
+    </div>
+ </div>
+
+ <script src="js/app.js" ></script>
+</body>
+</html>
